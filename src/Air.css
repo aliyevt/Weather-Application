@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+}
+.searchapi::after{
+    content: "WEATHER";
+    background: linear-gradient(black,white,black);
+    text-align: center;
+    clip-path: polygon(100% 0, 100% 100%, 23% 100%, 0% 0%);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    width: 520px;
+    height: 70px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    padding-top: 27px;
+    margin-top: -60px;
+    font-size: 37px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.searchapi::before{
+    content: "WEATHER";
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    background: linear-gradient(black,white,black);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    clip-path: polygon(100% 0, 80% 100%, 0% 100%, 0 49%, 0% 0%);
+    font-size: 37px;
+    padding-top: 27px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    height: 70px;
+    width: 520px;
+    margin-top: -60px;
+}
+
+.inpapi{
+    width: 577px;
+    height: 47px;
+    margin-top: -30px;
+    border-radius: 17px;
+    font-size: 17px;
+    box-shadow: 0 0 50px rgb(251, 251, 251);
+    background: linear-gradient(black,white,black);
+    padding-left: 30px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 1px solid rgb(0, 0, 0);
+}
+.inpapi::placeholder {
+    color: rgb(4, 0, 0);
+}
+.sunseti{
+    background: url("sky.jpeg"); 
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+}
+.searchapi{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    padding-top: 100px;
+}
+.locationapi{
+    text-transform: uppercase;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 900;
+}
+
+.humidity{
+    text-align: center;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    width: 400px;
+    height: 167px;
+    padding-top: 27px;
+    margin-top: -10px;
+    margin-left: 200px;
+    background: linear-gradient(black,rgb(143, 91, 0), black); 
+    border: 3px solid rgb(255, 255, 255);   
+}
+.wind{
+    text-align: center;
+    font-size: 37px;
+    text-transform: uppercase;
+    background: linear-gradient(black,rgb(143, 91, 0), black); 
+    border: 3px solid rgb(255, 255, 255); 
+    padding-top: 27px;
+    margin-top: 10px;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: 167px;
+    margin-left: 200px
+}
+.windapi{
+    font-weight: 900;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-top: -20px;
+}
+.windappi{
+    font-weight: 900;
+    color: white;
+   margin-top: 9px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.win2dappi{
+    letter-spacing: 1px;
+    margin-top: -44px;
+}
+.tempapi{
+    text-align: center;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    width: 400px;
+    height: 167px;
+    border: 3px solid rgb(255, 255, 255);
+    padding-top: 27px;
+    margin-top: -10px;
+    margin-left: 200px;
+    background: linear-gradient(black,rgb(143, 91, 0), black); 
+    height: 167px;
+}
+.feels{
+    text-align: center;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    width: 400px;
+    height: 167px;
+    border: 3px solid rgb(255, 255, 255);
+    padding-top: 27px;
+    margin-top: 10px;
+    margin-left: 200px;
+    background: linear-gradient(black,rgb(143, 91, 0), black); 
+    height: 167px;
+}
+.howff{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    margin-top: -70px;
+    font-size: 57px;
+    font-family: 'Roboto', sans-serif;
+}
+.flexair{
+    display: flex;
+    margin-top: 20px;
+     margin-left: 60px; 
+    font-family: 'Roboto', sans-serif;
+}
+.spec{
+    position: relative;
+    top: 20px;
+}
+.windapi7{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: -115px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-weight: 900;
+}
+.feeelss{
+margin-top: 17px;
+}
+/*phone*/
+@media screen and (max-width: 767px) {
+    .flexair{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px;
+    }
+    .searchapi::after{
+         font-size: 1.5em;
+    }
+    .searchapi::before{
+        font-size: 1.5em;
+    }
+    .windapi{
+        font-size: 40px;
+    }
+    .howff{
+        font-size: 40px;
+        padding-top: 17px;
+    }
+    .tempapi, .humidity, .feels, .wind{
+        width: 350px; 
+        margin-top: 10px;
+        height: 140px;
+    }
+    .windappi{
+        font-size: 35px;
+        margin-top: -3px;
+    }
+    .feeelss{
+    font-size: 35px;
+    margin-top: 10px;
+    }
+    .win2dappi{
+        font-size: 30px;
+    }
+    .windapi7{
+        font-size: 35px;
+    }
+    .spec{
+        font-size: 30px;
+    }
+    .sunseti{
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .inpapi{
+        width: 400px;
+    }
+  }
+/*mini*/
+@media screen and (max-width: 487px){
+    .flexair{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-left: -168px;
+      } 
+      .windappi{
+        margin-bottom: 55px;
+      }
+      .sunseti{
+        max-width: 100%;
+      }
+      .searchapi::after{
+        font-size: 1.3em;
+        margin-top: -107px;
+       position: relative;
+       right: 160px;
+       max-width: 140px ;
+       max-height: 55px ;
+       padding-right: 35px;
+       padding-left: 35px;
+   }
+   .searchapi::before{
+       font-size: 1.3em;
+       margin-top: -107px;
+       padding-left: 90px;
+       padding-right: 40px;
+       position: relative;
+       left: 100px;
+       max-width: 140px ;
+       max-height: 55px;
+   } 
+   .humidity, .feels, .wind, .tempapi{
+    max-width: 300px;
+}
+.inpapi{
+    margin-top: 77px;
+    position: relative;
+    right: 30px;
+    margin-bottom: 20px;
+}
+.windapi{
+    margin-bottom: 55px;
+}
+.sunseti{
+    min-height: 100vh;
+}
+}
+
+
+
+
+
+  /* tablet*/
+  @media screen and (min-width: 767px) and (max-width: 1023px){
+    .flexair{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-left: 40px;
+      } 
+      .sunseti{
+        height: 100%;
+        padding-bottom: 40px;
+    } 
+    .searchapi::after{
+        font-size: 1.7em;
+   }
+   .searchapi::before{
+       font-size: 1.7em;
+   } 
+  }
+  /*deskop*/
+  @media screen and (min-width: 1024px){
+    .flexair{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+    .humidity, .feels, .wind, .tempapi{
+        max-width: 350px;
+    }
+    .sunseti{
+        max-height: 100%;
+    }
+  }
